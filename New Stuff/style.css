@@ -1,0 +1,50 @@
+/* * { 
+    background-color: grey;
+} */
+
+header {
+    background-color: #3f3939;
+    padding: 3rem;
+    text-align:center;
+    font-size: 35px;
+    color: white;
+
+}
+
+nav {
+    border: 1px solid green;
+   /* width:50%; */
+   background-color:grey;
+   padding: 1rem;
+   text-align: center;
+   font-size: 25px;
+   /* color:white; */
+}
+
+nav p{
+    color: white;
+}
+
+footer{
+    background-color: blueviolet;
+    height:2.5rem;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    position:fixed;
+    bottom: 0;
+    width:100%;
+
+    /*footer p {
+        border:2px solid green;
+    }*/
+     article {
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+    article button{
+        height:2rem;
+    }
+
+}
